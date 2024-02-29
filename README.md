@@ -3,18 +3,24 @@ Project Overview:
 The project involves building a comprehensive data processing pipeline in Azure to handle large-scale data ingestion, transformation, and analytics tasks.
 
 Components Used:
+
 Azure Blob Storage: Used as the initial storage solution for uploading raw data.
+
 Azure Data Factory (ADF):
 Task: Ingests data from Blob Storage and loads it into Azure Data Lake Storage (ADLS).
+
 Azure Data Lake Storage (ADLS):
 Task: Acts as a centralized storage repository for raw and transformed data.
+
 Azure Databricks:
 Task: Performs data transformation using Apache Spark-based analytics.
+
 Azure Synapse Analytics:
 Task: Executes SQL queries for data analytics and reporting.
 Database Creation: Created a database within ADLS for data querying and analysis.
 
 ###############Workflow##########:
+
 Data Ingestion:
 
 Raw data is uploaded to Azure Blob Storage.
